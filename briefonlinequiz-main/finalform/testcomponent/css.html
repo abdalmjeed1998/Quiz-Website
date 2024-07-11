@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="test.css"> <!-- Include your existing styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> <!-- Include font-awesome library -->
+</head>
+<body>
+    <div id="containercenter">
+        <div id="containercenter-left">
+            <div id="containercenter-left-img">
+                <img src="/assets/student.jpeg" alt="">
+            </div>
+        </div>
+        <div id="containercenter-exam">
+            <div class="quiz_app" id="quiz_app">
+                <div class="quiz_info">
+                    <div class="catigories">
+                        CATIGORY: <span>CSS</span>
+                    </div>
+                    <div class="count">You have 5 min to finish</div>
+                </div>
+                <div class="quiz_area">
+                    <h2>Why do we use the &lt;br&gt; Element</h2>
+                </div>
+                <div class="answer_area">
+                    <!-- Questions and answer options will be populated dynamically -->
+                </div>
+                <button class="submit_button" id="submit_button">Submit</button>
+                <button class="show_answers_button" id="show_answers_button" style="display:none;">Show Answers</button><button id="backButton" style="display: none;">Back to courses</button>
+                <div class="bullets">
+                    
+                    <span class='on'></span>
+                    <div class="count_down">
+                        <span class="minutes"></span> :
+                        <span class="seconds"></span>
+                    </div>
+                </div>
+                <div class="results">
+                    <span class="perfect"></span> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="css.js"></script>
+       
+
+    
+</body>
+</html>

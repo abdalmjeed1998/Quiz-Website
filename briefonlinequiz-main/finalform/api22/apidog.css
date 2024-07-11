@@ -1,0 +1,28 @@
+#video-container {
+    padding: 28px;
+    border-top-right-radius: 80px;
+    display: flex;
+    border-bottom-left-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background: rgb(2, 106, 106);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
